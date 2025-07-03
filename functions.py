@@ -1,6 +1,6 @@
 def main(): #defining the main function
     lang = input("Enter the first two letters of the language:")
-    greeting = greet(lang) #calling the greet function
+    greeting = greet(lang) #calling the greet function and passing the language as arguement
     print(f"{greeting},Varun")
 
 def greet(lang): # defining thr greet function and returning the appropriate greeting
