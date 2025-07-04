@@ -7,3 +7,5 @@ while n < lenght:
     lst.append(element) # append is a method which add a new element to end of the list
     n += 1
 print(lst)
+lst.sort() # sort is a method which lets the list sort itself out 
+print(f"sorted list = {lst}")
