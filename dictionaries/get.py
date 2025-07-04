@@ -1,6 +1,7 @@
 # couting in a dictionary using the get method
 counts = dict()
-names = ["shriyan","varun","varun","shriyan","varshini","varun"]
-for name in names: #iterating through all the names in the list
-    counts[name] = counts.get(name , 0) + 1 # get method checks the name in the dict and return second if not found
+line = input("Enter a line:") #asks input for a string
+words = line.split() # list of words returns from split
+for word in words:
+    counts[word] = counts.get(word , 0) + 1 # using get function to create dict of words and count
 print(counts)
