@@ -15,3 +15,6 @@ print(keys)
 print()
 values = counts.values() # values method return a list of values in the dictionary
 print(values)
+print()
+tups = counts.items() # items is a method which returns a list of tuples of key and values
+print(tups)
